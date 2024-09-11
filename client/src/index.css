@@ -1,8 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
-    --bg: #282c34;
-    --header: #fff;
-    --link: #61dafb;
-    --text: hsla(0, 0%, 100%, 0.88);
-  }
-  
-  
+  --bg: #003572;
+  --header: #fff;
+  --link: #61dafb;
+  --text: hsla(0, 0%, 100%, 0.88);
+}
+
+html,body{
+  background-color: #003572;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section{
+  background-image: url(./images/hero-image.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  background-color: #003572;
+}
+
+button{
+  background-color: #fff;
+  color: #003572;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #61dafb;
+  color: #003572;
+}
+
+.browse-section{
+  background-color: #003572;
+  color: #fff;
+  padding: 20px;
+  height: 60vh;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+.browse-section h1{
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+ion-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.form-page{
+  height: 100vh;
+  padding-top: 10px;
+}
+
+.event-page{
+    height: 70vh;
+}
